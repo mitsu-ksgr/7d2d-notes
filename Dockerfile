@@ -22,6 +22,5 @@ RUN yarn install
 # copy project files/directories.
 COPY . .
 
-EXPOSE 8080
 CMD ["yarn", "serve"]
 
