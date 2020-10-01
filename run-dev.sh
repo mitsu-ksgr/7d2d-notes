@@ -7,5 +7,6 @@ docker build -t ${DOCKER_IMAGE} .
 docker run -it --rm \
   -v `pwd`:/app \
   -p ${EXPOSE_PORT}:8080 \
-  ${DOCKER_IMAGE}
+  ${DOCKER_IMAGE} \
+  $@
 
