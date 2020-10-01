@@ -17,6 +17,7 @@ WORKDIR /app
 # copy both 'package.json' and 'package-lock.json' (if available)
 # and then install project dependencies
 COPY package*.json ./
+COPY yarn.lock ./
 RUN yarn install
 
 # copy project files/directories.
