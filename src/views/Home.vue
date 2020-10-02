@@ -15,21 +15,35 @@
 
     <v-container class="text-center">
       <p>
-        <!-- TODO: Ref to config -->
-        7daystodie version ... a19
-        <br>Site Version ... 0.1.0
+        Target 7Days To Die version ... {{ target7d2dVersion }}<br>
+        Site version ... {{ appVersion }}
       </p>
+    </v-container>
 
-      <!--
+    <v-container class="text-center">
+      <h2 class="sub-headline">Contents</h2>
 
-        TODO: Add to contents
+      <v-list-item v-for="item in contents" :key="item.title">
+        <v-list-item-content>
+          <v-list-item-title>
+            <h3>
+              <v-icon>{{ item.icon }}</v-icon>&nbsp;
+              <a :href="item.link">{{ item.title}}</a>
+            </h3>
+          </v-list-item-title>
+          <v-list-item-subtitle class="text-h6">
+            {{ item.desc }}
+          </v-list-item-subtitle>
+        </v-list-item-content>
+      </v-list-item>
+    </v-container>
 
-      -->
-   </v-container>
   </v-container>
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 import Logo from '@/components/Logo.vue';
 
 export default {
@@ -39,6 +53,38 @@ export default {
   },
 
   data: () => ({
+    contents: [
+      {
+        icon: 'mdi-file-document-multiple-outline',
+        title: 'Item List',
+        link: '/items',
+        desc: 'show all items',
+      },
+    ],
+  }),
+
+  computed: mapState({
+    appVersion: (state) => state.appVersion,
+    target7d2dVersion: (state) => state.target7d2dVersion,
   }),
 };
 </script>
+
+<style lang="scss" scope>
+.home {
+  h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 6rem;
+    font-family: 'EB Garamond', serif;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 6rem;
+    font-family: 'EB Garamond', serif;
+
+  }
+}
+</style>
