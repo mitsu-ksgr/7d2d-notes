@@ -5,6 +5,10 @@ node_modules
 # Item Icons
 public/imgs/items/*.png
 
+# Firebase
+.firebase/*
+.firebaserc
+
 # local env files
 .env.local
 .env.*.local
