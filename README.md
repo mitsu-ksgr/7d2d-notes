@@ -23,3 +23,28 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+TODO: ↑ rewrite
+
+-------
+
+## Firebasae
+
+### init
+```sh
+$ docker-compose run --rm web /bin/sh
+/app # yarn firebase login --no-localhost
+# --- vist auth URL on any device and then paste auth code '? Paste authorization code here:'.
+
+/app # yarn firebase init
+```
+
+### deploy
+```sh
+$ docker-compose run --rm web /bin/sh
+/app # yarn firebase login --no-localhost
+/app # yarn run build
+/app # yarn firebase deploy
+```
+
