@@ -306,7 +306,7 @@
     },
     {
         "key": "meleeToolSalvageT3ImpactDriver",
-        "icon_file_name": null,
+        "icon_file_name": "meleeToolSalvageT3ImpactDriver.png",
         "name_en": "Impact Driver",
         "name_ja": "衝撃ドライバー",
         "tags": [
@@ -2342,7 +2342,7 @@
     },
     {
         "key": "ammoBundle762mmBulletHP",
-        "icon_file_name": null,
+        "icon_file_name": "ammo762mmBulletHP.png",
         "name_en": "Box of HP 7.62mm Ammo (100)",
         "name_ja": "HP 7.62mm弾（100）個入りの箱",
         "tags": [],
@@ -5828,7 +5828,7 @@
     },
     {
         "key": "meleeToolSalvageT3ImpactDriverSchematic",
-        "icon_file_name": null,
+        "icon_file_name": "meleeToolSalvageT3ImpactDriver.png",
         "name_en": "Impact Driver Schematic",
         "name_ja": "設計図「衝撃ドライバー」",
         "tags": [],
