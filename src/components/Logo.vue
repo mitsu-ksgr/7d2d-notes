@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <h1 class="title">7 Days to Die; scrapbook</h1>
+    <h1 class="title">Note: 7d2d</h1>
   </div>
 </template>
 
