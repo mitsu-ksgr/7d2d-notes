@@ -10,7 +10,7 @@
 FROM node:14-alpine
 
 RUN apk update && apk upgrade
-RUN yarn global add @vue/cli
+RUN yarn global add @vue/cli firebase
 
 WORKDIR /app
 
