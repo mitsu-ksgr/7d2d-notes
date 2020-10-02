@@ -47,6 +47,11 @@ export default {
         link: '/',
       },
       {
+        title: 'Items',
+        icon: 'mdi-file-document-multiple-outline',
+        link: '/items',
+      },
+      {
         title: 'About',
         icon: 'mdi-information-variant',
         link: '/about',
