@@ -7,27 +7,29 @@
     <v-app-bar app color="purple darken-3">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-spacer></v-spacer>
-      <div class="d-flex align-center"><Logo /></div>
+      <div class="d-flex align-center"><Logo type="text"/></div>
     </v-app-bar>
 
     <v-main>
-      <Home />
+      <router-view></router-view>
     </v-main>
+
+    <MyFooter />
   </v-app>
 </template>
 
 <script>
 import Logo from '@/components/Logo.vue';
 import Drawer from '@/components/Drawer.vue';
-import Home from '@/components/Home.vue';
+import MyFooter from '@/components/MyFooter.vue';
 
 export default {
   name: 'App',
 
   components: {
-    Home,
     Logo,
     Drawer,
+    MyFooter,
   },
 
   data: () => ({

@@ -1,19 +1,42 @@
 <template>
-  <div class="logo">
-    <h1 class="title">Note: 7d2d</h1>
-  </div>
+  <v-container class="logo">
+    <div v-if="type == 'title'">
+      <h1>{{ logoText}}</h1>
+    </div>
+    <div v-else-if="type == 'text'">
+      <span>{{ logoText}}</span>
+    </div>
+  </v-container>
 </template>
 
 <script>
+export default {
+  props: {
+    type: {
+      type: String,
+      default: 'title',
+      validator: (t) => ['title', 'text'].includes(t),
+    },
+  },
+
+  data: () => ({
+    logoText: 'Note: 7d2d',
+  }),
+};
 </script>
 
 <style lang="scss" scope>
 .logo {
-  .title {
-    #font-size: xx-large;
-    font-size: 64px;
+  h1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 6rem;
     font-family: 'EB Garamond', serif;
-    font-color: red;
+  }
+
+  span {
+    font-size: 1.5em;
+    font-family: 'EB Garamond', serif;
   }
 }
 </style>
