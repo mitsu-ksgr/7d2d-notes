@@ -1,15 +1,17 @@
 <template>
   <v-container class="logo">
     <div v-if="type == 'title'">
-      <h1>{{ logoText}}</h1>
+      <h1>{{ appName }}</h1>
     </div>
     <div v-else-if="type == 'text'">
-      <span>{{ logoText}}</span>
+      <span>{{ appName }}</span>
     </div>
   </v-container>
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 export default {
   props: {
     type: {
@@ -19,8 +21,8 @@ export default {
     },
   },
 
-  data: () => ({
-    logoText: 'Note: 7d2d',
+  computed: mapState({
+    appName: (state) => state.appName,
   }),
 };
 </script>
@@ -28,7 +30,7 @@ export default {
 <style lang="scss" scope>
 .logo {
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 300;
     line-height: 6rem;
     font-family: 'EB Garamond', serif;

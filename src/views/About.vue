@@ -20,9 +20,8 @@
       </p>
 
       <p>
-        <!-- TODO: Ref to config -->
-        Target 7Days To Die version ... a19<br>
-        Site version ... 0.1.0
+        Target 7Days To Die version ... {{ target7d2dVersion }}<br>
+        Site version ... {{ appVersion }}
       </p>
     </v-container>
 
@@ -63,6 +62,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 import Logo from '@/components/Logo.vue';
 
 export default {
@@ -84,6 +85,11 @@ export default {
         desc: 'Material Design Framework',
       },
     ],
+  }),
+
+  computed: mapState({
+    appVersion: (state) => state.appVersion,
+    target7d2dVersion: (state) => state.target7d2dVersion,
   }),
 };
 </script>

@@ -6,10 +6,10 @@
           <Logo type="text" />
         </v-list-item-title>
         <v-list-item-subtitle>
-          7daystodie version: a19
+          Target : 7DayToDie {{ target7d2dVersion }}
         </v-list-item-subtitle>
         <v-list-item-subtitle>
-          Site version: v0.1.0
+          Site version: {{ appVersion }}
         </v-list-item-subtitle>
       </v-list-item-content>
     </v-list-item>
@@ -30,6 +30,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+
 import Logo from '@/components/Logo.vue';
 
 export default {
@@ -51,6 +53,11 @@ export default {
       },
     ],
     right: null,
+  }),
+
+  computed: mapState({
+    appVersion: (state) => state.appVersion,
+    target7d2dVersion: (state) => state.target7d2dVersion,
   }),
 };
 </script>
