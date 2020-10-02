@@ -2,8 +2,8 @@
 node_modules
 /dist
 
-# assets.
-src/assets/img/items/*.png
+# Item Icons
+public/imgs/items/*.png
 
 # local env files
 .env.local
