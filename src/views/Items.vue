@@ -7,7 +7,7 @@
     </v-container>
 
     <v-container class="text-center">
-      <v-simple-table height="500px" dense>
+      <v-simple-table height="500px" fixed-header>
         <template v-slot:default>
           <thead>
             <tr>
