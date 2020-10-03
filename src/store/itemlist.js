@@ -27,13 +27,44 @@
       // ....
     ]
 */
+
+function isEmpty(str) {
+  return (!str || str.length === 0);
+}
+
+function validateItem(item) {
+  // Invalid: missing names.
+  if (isEmpty(item.name_ja) || isEmpty(item.name_en)) {
+    return false;
+  }
+
+  // Invalid: missingIcon.
+  if (item.icon_file_name === 'missingIcon.png') {
+    return false;
+  }
+
+  return true;
+}
+
 const jsonItemList = require('@/assets/json/items.json');
 
 const complementItemList = () => {
-  const ret = jsonItemList;
-  for (let i = 0; i < ret.length; ++i) {
-    ret[i].icon_file_path = `/imgs/items/${ret[i].icon_file_name}`;
-  }
+  const ret = []; // deep copy.
+  let idx = 0;
+
+  jsonItemList.forEach((item) => {
+    if (!validateItem(item)) {
+      return;
+    }
+
+    ret.push({
+      id: idx,
+      icon_file_path: `/imgs/items/${item.icon_file_name}`,
+      ...item,
+    });
+    idx += 1;
+  });
+
   return ret;
 };
 
@@ -44,5 +75,13 @@ export default class ItemList {
 
   findItemByKey(key) {
     return this.items.find((item) => item.key === key);
+  }
+
+  sortBy(attr) {
+    return this.items.sort((a, b) => {
+      if (a[attr] > b[attr]) return 1;
+      if (a[attr] < b[attr]) return -1;
+      return 0;
+    });
   }
 }

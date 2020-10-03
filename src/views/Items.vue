@@ -11,15 +11,15 @@
         <template v-slot:default>
           <thead>
             <tr>
-              <th>Icon</th>
-              <th class="text-left">Key</th>
-              <th class="text-left">Name (en)</th>
-              <th class="text-left">Name (ja)</th>
+              <th @click="sortBy('id')">Icon</th>
+              <th class="text-left" @click="sortBy('key')">Key</th>
+              <th class="text-left" @click="sortBy('name_en')">Name (en)</th>
+              <th class="text-left" @click="sortBy('name_ja')">Name (ja)</th>
             </tr>
           </thead>
 
           <tbody>
-            <tr v-for="item in itemList.items" :key="item.key">
+            <tr v-for="item in sortedList" :key="item.key">
               <td>
                 <img :src="item.icon_file_path" width="50" height="50">
               </td>
@@ -43,10 +43,25 @@ export default {
   },
 
   data: () => ({
+    sort_by: '',
   }),
 
-  computed: mapState({
-    itemList: (state) => state.itemList,
-  }),
+  computed: {
+    sortedList() {
+      if (this.sort_by !== '') {
+        this.itemList.sortBy(this.sort_by);
+      }
+      return this.itemList.items;
+    },
+    ...mapState({
+      itemList: (state) => state.itemList,
+    }),
+  },
+
+  methods: {
+    sortBy(attr) {
+      this.sort_by = attr;
+    },
+  },
 };
 </script>
