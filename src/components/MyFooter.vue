@@ -4,7 +4,7 @@
       <Logo type="text" />
 
       <p class="font-weight-light">
-        build by <a href="https://twitter.com/mitsukun_sp" target="_blank">mitsukun_sp</a>.
+        build by <a href="https://twitter.com/mitsu_ksgr" target="_blank">mitsu-ksgr</a>.
       </p>
 
       <p class="font-weight-light">

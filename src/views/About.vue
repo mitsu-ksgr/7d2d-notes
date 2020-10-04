@@ -30,7 +30,7 @@
 
       <p>
         This website build by
-        <a href="https://twitter.com/mitsukun_sp" target="_blank">mitsukun_sp</a>.
+        <a href="https://twitter.com/mitsu_ksgr" target="_blank">mitsu-ksgr</a>
 
         <br>
         If you have any question or problems, please message me on twitter :)
