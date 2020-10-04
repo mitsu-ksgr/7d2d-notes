@@ -499,27 +499,6 @@
         ]
     },
     {
-        "key": "meleeWpnBatonT1JunkBaton",
-        "icon_file_name": "missingIcon.png",
-        "name_en": "Junk Baton",
-        "name_ja": "Junk Baton",
-        "tags": [
-            "melee",
-            "grunting",
-            "light",
-            "perkFlurryOfBlows",
-            "weapon",
-            "meleeWeapon",
-            "attIntellect",
-            "perkElectrocutioner",
-            "canHaveCosmetic"
-        ],
-        "unlocked_by": [
-            "perkElectrocutioner",
-            "meleeWpnBatonT1JunkBatonSchematic"
-        ]
-    },
-    {
         "key": "meleeWpnBatonT2StunBaton",
         "icon_file_name": "meleeWpnBatonT2StunBaton.png",
         "name_en": "Stun Baton",
@@ -538,27 +517,6 @@
         "unlocked_by": [
             "perkElectrocutioner",
             "meleeWpnBatonT2StunBatonSchematic"
-        ]
-    },
-    {
-        "key": "meleeWpnBatonT3PlasmaBaton",
-        "icon_file_name": "missingIcon.png",
-        "name_en": "Plasma Baton",
-        "name_ja": "PlasmaBaton",
-        "tags": [
-            "melee",
-            "grunting",
-            "light",
-            "perkFlurryOfBlows",
-            "weapon",
-            "meleeWeapon",
-            "attIntellect",
-            "perkElectrocutioner",
-            "canHaveCosmetic"
-        ],
-        "unlocked_by": [
-            "perkElectrocutioner",
-            "meleeWpnBatonT3PlasmaBatonSchematic"
         ]
     },
     {
@@ -745,24 +703,6 @@
         ],
         "unlocked_by": [
             "meleeWpnKnucklesT3SteelKnucklesSchematic"
-        ]
-    },
-    {
-        "key": "meleeToolFarmT1IronHoe",
-        "icon_file_name": "meleeToolFarmT1IronHoe.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "melee",
-            "medium",
-            "tool",
-            "attFortitude",
-            "perkLivingOffTheLand",
-            "canHaveCosmetic"
-        ],
-        "unlocked_by": [
-            "perkLivingOffTheLand",
-            "meleeToolFarmT1IronHoeSchematic"
         ]
     },
     {
@@ -1397,496 +1337,6 @@
         ]
     },
     {
-        "key": "meleeHandMaster",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandPlayer",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "grunting",
-            "light",
-            "perkFlurryOfBlows",
-            "attFortitude",
-            "perkBrawler"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombie01",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieBalancingDummy",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombie02",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombie02Feral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieBurning",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieBurningFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieBurningCrawler",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieCop",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "ammoProjectileZombieVomit",
-        "icon_file_name": "ammoProjectileZombieVomit.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieCopFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "ammoProjectileZombieVomitFeral",
-        "icon_file_name": "ammoProjectileZombieVomitFeral.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieCopRadiated",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "ammoProjectileZombieVomitRadiated",
-        "icon_file_name": "ammoProjectileZombieVomitRadiated.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalZombieDog",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieStrong",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieDemolition",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieStrongFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalBear",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalZombieBear",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalZombieBearFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieHazMat",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieHazMatFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieWorker",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieWorkerFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieFootballPlayer",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieFootballPlayerFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieStripper",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandZombieStripperFeral",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalCoyote",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalZombieVulture",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalZombieVultureRadiated",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "ammoProjectileVultureVomit",
-        "icon_file_name": "ammoProjectileVultureVomit.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalSnake",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalWolf",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandAnimalDireWolf",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeHandBossGrace",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "blunt",
-            "melee",
-            "light",
-            "perkFlurryOfBlows"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "ammo9mmBulletBall",
         "icon_file_name": "ammo9mmBulletBall.png",
         "name_en": "9mm Ammo",
@@ -2258,16 +1708,6 @@
         ],
         "unlocked_by": [
             "perkRangersExplodingBolts"
-        ]
-    },
-    {
-        "key": "ammoBundleMaster",
-        "icon_file_name": "ammo9mmBulletBall.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": [
-            "perkPistolPeteComplete"
         ]
     },
     {
@@ -2724,14 +2164,6 @@
         "unlocked_by": []
     },
     {
-        "key": "thrownAmmoFlare",
-        "icon_file_name": "thrownAmmoPipeBomb.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "ammoDartIron",
         "icon_file_name": "ammoDartIron.png",
         "name_en": "Iron Dart (Ammo)",
@@ -2743,14 +2175,6 @@
             "perkArchery",
             "perkPenetrator"
         ],
-        "unlocked_by": []
-    },
-    {
-        "key": "partsMaster",
-        "icon_file_name": "partsMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
         "unlocked_by": []
     },
     {
@@ -2854,14 +2278,6 @@
         "icon_file_name": "meleeWpnSledgeT3SteelSledgehammerParts.png",
         "name_en": "Steel Sledgehammer Parts",
         "name_ja": "鉄鋼製スレッジハンマーパーツ",
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeToolSalvageParts",
-        "icon_file_name": "missingIcon.png",
-        "name_en": "Salvage Tool Parts",
-        "name_ja": "回収ツールパーツ",
         "tags": [],
         "unlocked_by": []
     },
@@ -3074,14 +2490,6 @@
         "unlocked_by": []
     },
     {
-        "key": "armorClothMaster",
-        "icon_file_name": "armorClothHat.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "armorClothHat",
         "icon_file_name": "armorClothHat.png",
         "name_en": "Padded Hood",
@@ -3182,17 +2590,6 @@
         "unlocked_by": []
     },
     {
-        "key": "armorLeatherMaster",
-        "icon_file_name": "armorLeatherHood.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": [
-            "perkLightArmor",
-            "armorLeatherSetSchematic"
-        ]
-    },
-    {
         "key": "armorLeatherHood",
         "icon_file_name": "armorLeatherHood.png",
         "name_en": "Leather Hood",
@@ -3289,16 +2686,6 @@
         "unlocked_by": [
             "perkLightArmor",
             "armorLeatherSetSchematic"
-        ]
-    },
-    {
-        "key": "armorMilitaryMaster",
-        "icon_file_name": "armorMilitaryHelmet.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": [
-            "armorMilitarySetSchematic"
         ]
     },
     {
@@ -3415,14 +2802,6 @@
         ]
     },
     {
-        "key": "armorScrapMaster",
-        "icon_file_name": "armorScrapHelmet.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "armorScrapHelmet",
         "icon_file_name": "armorScrapHelmet.png",
         "name_en": "Scrap Helmet",
@@ -3505,17 +2884,6 @@
             "heavyArmorDeg"
         ],
         "unlocked_by": []
-    },
-    {
-        "key": "armorIronMaster",
-        "icon_file_name": "armorIronHelmet.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": [
-            "perkHeavyArmor",
-            "armorIronSetSchematic"
-        ]
     },
     {
         "key": "armorIronHelmet",
@@ -3614,16 +2982,6 @@
         "unlocked_by": [
             "perkHeavyArmor",
             "armorIronSetSchematic"
-        ]
-    },
-    {
-        "key": "armorSteelMaster",
-        "icon_file_name": "armorSteelHelmet.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": [
-            "armorSteelSetSchematic"
         ]
     },
     {
@@ -3805,14 +3163,6 @@
         "unlocked_by": []
     },
     {
-        "key": "apparelPlantFiberMaster",
-        "icon_file_name": "apparelPlantFiberPants.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "apparelPlantFiberPants",
         "icon_file_name": "apparelPlantFiberPants.png",
         "name_en": "Plant Fiber Pants",
@@ -3934,14 +3284,6 @@
         "unlocked_by": [
             "perkSniperComplete"
         ]
-    },
-    {
-        "key": "apparelHazmatMaster",
-        "icon_file_name": "apparelHazmatBoots.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
     },
     {
         "key": "apparelHazmatBoots",
@@ -4638,14 +3980,6 @@
         "unlocked_by": [
             "perkNeedleAndThreadFootwear"
         ]
-    },
-    {
-        "key": "backpackMedium",
-        "icon_file_name": "backpackMedium.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
     },
     {
         "key": "medicalAloeCream",
@@ -5601,17 +4935,6 @@
         ]
     },
     {
-        "key": "drinkJarYuccaCocktail",
-        "icon_file_name": "drinkJarYuccaCocktail.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": [
-            "perkMasterChef",
-            "drinkJarRedTeaSchematic"
-        ]
-    },
-    {
         "key": "drinkYuccaJuiceSmoothie",
         "icon_file_name": "drinkYuccaJuiceSmoothie.png",
         "name_en": "Yucca Juice Smoothie",
@@ -5731,22 +5054,6 @@
         "unlocked_by": []
     },
     {
-        "key": "schematicMaster",
-        "icon_file_name": "schematicMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "invisibleRecipesForRepairCost",
-        "icon_file_name": "schematicMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "meleeWpnClubT1BaseballBatSchematic",
         "icon_file_name": "meleeWpnClubT1BaseballBat.png",
         "name_en": "Baseball Bat Schematic",
@@ -5831,14 +5138,6 @@
         "icon_file_name": "meleeToolSalvageT3ImpactDriver.png",
         "name_en": "Impact Driver Schematic",
         "name_ja": "設計図「衝撃ドライバー」",
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "meleeToolFarmT1IronHoeSchematic",
-        "icon_file_name": "meleeToolFarmT1IronHoe.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [],
         "unlocked_by": []
     },
@@ -6079,14 +5378,6 @@
         "icon_file_name": "armorSteelChest.png",
         "name_en": "Steel Armor Schematic",
         "name_ja": "設計図「鉄鋼アーマー」",
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "schematicNoQualityMaster",
-        "icon_file_name": "schematicMaster.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [],
         "unlocked_by": []
     },
@@ -6851,14 +6142,6 @@
         "unlocked_by": []
     },
     {
-        "key": "schematicNoQualityRecipeMaster",
-        "icon_file_name": "schematicMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "ammoGasCanSchematic",
         "icon_file_name": "ammoGasCan.png",
         "name_en": "Gas Can Recipe",
@@ -7235,50 +6518,10 @@
         "unlocked_by": []
     },
     {
-        "key": "skillBookMaster",
-        "icon_file_name": "schematicMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "blankNoteMaster",
-        "icon_file_name": "questMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "noteDuke01",
         "icon_file_name": "challengeQuestMaster.png",
         "name_en": "Note from The Duke of Navezgane",
         "name_ja": "デュークネーブズジェーンからのメモ",
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "questMaster",
-        "icon_file_name": "questMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "challengeQuestMaster",
-        "icon_file_name": "challengeQuestMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "treasureQuestMaster",
-        "icon_file_name": "treasureQuestMaster.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [],
         "unlocked_by": []
     },
@@ -7801,16 +7044,6 @@
         "unlocked_by": []
     },
     {
-        "key": "resourceFertilizer",
-        "icon_file_name": "resourceFertilizer.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "junk"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "resourceMilitaryFiber",
         "icon_file_name": "resourceMilitaryFiber.png",
         "name_en": "Military Fiber",
@@ -7846,16 +7079,6 @@
         "icon_file_name": "resourceMechanicalParts.png",
         "name_en": "Mechanical Parts",
         "name_ja": "機械部品",
-        "tags": [
-            "junk"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "resourceInsulator",
-        "icon_file_name": "resourceInsulator.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "junk"
         ],
@@ -8094,16 +7317,6 @@
         "unlocked_by": []
     },
     {
-        "key": "resourceTrophy3",
-        "icon_file_name": "resourceTrophy3.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "junk"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "resourceSilverNugget",
         "icon_file_name": "resourceSilverNugget.png",
         "name_en": "Silver Nugget",
@@ -8299,62 +7512,6 @@
             "perkAdvancedEngineering",
             "toolForgeCrucibleSchematic"
         ]
-    },
-    {
-        "key": "unit_iron",
-        "icon_file_name": "resourceScrapIron.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "unit_brass",
-        "icon_file_name": "resourceScrapBrass.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "unit_lead",
-        "icon_file_name": "resourceScrapLead.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "unit_glass",
-        "icon_file_name": "resourceCrushedSand.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "unit_stone",
-        "icon_file_name": "resourceRockSmall.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "unit_clay",
-        "icon_file_name": "resourceClayLump.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "questItem",
-        "icon_file_name": "questItem.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
     },
     {
         "key": "resourceLockPick",
@@ -8620,14 +7777,6 @@
         "icon_file_name": "meleeToolWireTool.png",
         "name_en": "Dev: Electricity Test Note",
         "name_ja": "開発者用:電化製品テストメモ",
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "missingIcon",
-        "icon_file_name": "missingIcon.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [],
         "unlocked_by": []
     },
@@ -9728,46 +8877,6 @@
         "unlocked_by": []
     },
     {
-        "key": "Loadout Tier 1",
-        "icon_file_name": "mineCandyTin.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "Loadout Tier 2",
-        "icon_file_name": "mineCandyTin.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "Loadout Tier 3",
-        "icon_file_name": "mineCandyTin.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "Loadout Tier 4",
-        "icon_file_name": "mineCandyTin.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
-        "key": "Loadout Tier 5",
-        "icon_file_name": "mineCandyTin.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [],
-        "unlocked_by": []
-    },
-    {
         "key": "air",
         "icon_file_name": null,
         "name_en": "Air",
@@ -9888,30 +8997,10 @@
         "unlocked_by": []
     },
     {
-        "key": "terrIce",
-        "icon_file_name": "terrSnow.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "terrTopSoil",
         "icon_file_name": "terrForestGround.png",
         "name_en": "Topsoil",
         "name_ja": "表土",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrSnowyStone",
-        "icon_file_name": "terrSnow.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -10050,39 +9139,6 @@
         "unlocked_by": []
     },
     {
-        "key": "terrOreSilver",
-        "icon_file_name": "terrGravel.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "terrGravel",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrOreGold",
-        "icon_file_name": "terrGravel.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "terrGravel",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrOreDiamond",
-        "icon_file_name": "terrGravel.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "terrGravel",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "terrOreStoneIronRandom",
         "icon_file_name": "terrStone.png",
         "name_en": "= Iron Vein = Helper",
@@ -10133,90 +9189,10 @@
         "unlocked_by": []
     },
     {
-        "key": "terrFertileDirt",
-        "icon_file_name": "terrDirt.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrForestFromDirt",
-        "icon_file_name": "terrForestGround.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "terrFertileGrass",
         "icon_file_name": "terrForestGround.png",
         "name_en": "Fertile Grass",
         "name_ja": "生い茂った草",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrForestWGrass1",
-        "icon_file_name": "terrForestGround.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrForestWGrass2",
-        "icon_file_name": "terrForestGround.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrBurntForestFromDirt",
-        "icon_file_name": "terrBurntForestGround.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrBurntForestWGrass1",
-        "icon_file_name": "terrBurntForestGround.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrBurntForestWGrass2",
-        "icon_file_name": "terrBurntForestGround.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "terrStoneRandomLootHelper",
-        "icon_file_name": "terrStone.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -10237,436 +9213,6 @@
         "icon_file_name": "terrWaterPOI.png",
         "name_en": "Water Block (POI)",
         "name_ja": "水ブロック（POI）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "waterMovingBucket",
-        "icon_file_name": "terrWaterPOI.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "waterStaticBucket",
-        "icon_file_name": "terrWaterPOI.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "waterMoving",
-        "icon_file_name": "terrWaterPOI.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "water",
-        "icon_file_name": "terrWaterPOI.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "woodWeakNoUpgradeMaster",
-        "icon_file_name": "woodWeakNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "woodFrameMaster",
-        "icon_file_name": "woodFrameMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "woodNoUpgradeMaster",
-        "icon_file_name": "woodNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "woodMaster",
-        "icon_file_name": "woodMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rWoodMaster",
-        "icon_file_name": "rWoodMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rWoodMetalMaster",
-        "icon_file_name": "rWoodMetalMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "scrapIronFrameMaster",
-        "icon_file_name": "scrapIronFrameMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "scrapIronNoUpgradeMaster",
-        "icon_file_name": "scrapIronNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "scrapIronMaster",
-        "icon_file_name": "scrapIronMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rScrapIronMaster",
-        "icon_file_name": "rScrapIronMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rebarFrameMaster",
-        "icon_file_name": "rebarFrameMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredConcreteMaster",
-        "icon_file_name": "pouredConcreteMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "concreteNoUpgradeMaster",
-        "icon_file_name": "concreteNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "concreteMaster",
-        "icon_file_name": "concreteMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteMaster",
-        "icon_file_name": "pouredConcreteBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rConcreteMaster",
-        "icon_file_name": "rConcreteMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "steelMaster",
-        "icon_file_name": "steelMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "stainlessSteelMaster",
-        "icon_file_name": "stainlessSteelMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "stoneNoUpgradeMaster",
-        "icon_file_name": "stoneNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "flagstoneNoUpgradeMaster",
-        "icon_file_name": "flagstoneNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "flagstoneMaster",
-        "icon_file_name": "flagstoneMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cobblestoneMaster",
-        "icon_file_name": "cobblestoneMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "brickNoUpgradeMaster",
-        "icon_file_name": "brickNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "brickMaster",
-        "icon_file_name": "brickMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "corrugatedMetalNoUpgradeMaster",
-        "icon_file_name": "corrugatedMetalNoUpgradeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "corrugatedMetalMaster",
-        "icon_file_name": "corrugatedMetalMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "awningMaster",
-        "icon_file_name": "awningMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "glassBulletproofMaster",
-        "icon_file_name": "glassBulletproofMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cropsGrowingMaster",
-        "icon_file_name": "plantedBlueberry1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cropsHarvestableMaster",
-        "icon_file_name": "cropsHarvestableMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "treeGrassMaster",
-        "icon_file_name": "treeForestGrassDiagonal.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "treeMaster",
-        "icon_file_name": "treeMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "treeMasterGrowing",
-        "icon_file_name": "treeMasterGrowing.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decoEntityWoodMaster",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decoEntityMetalMaster",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decoEntityPolymerMaster",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decoEntityClothMaster",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decoEntityGlassMaster",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -11530,16 +10076,6 @@
         "icon_file_name": "concreteStairs50.png",
         "name_en": "Concrete Stairs 50",
         "name_ja": "コンクリート階段50",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteStairs50",
-        "icon_file_name": "pouredConcreteStairs50.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -13024,26 +11560,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteCNRRound",
-        "icon_file_name": "pouredConcreteCNRRound.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteCNRRoundTop",
-        "icon_file_name": "pouredConcreteCNRRoundTop.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteCNRRound",
         "icon_file_name": "rConcreteCNRRound.png",
         "name_en": "R Concrete Corner Round",
@@ -13495,16 +12011,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteWedgeIncline",
-        "icon_file_name": "pouredConcreteWedgeIncline.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteWedgeIncline",
         "icon_file_name": "rConcreteWedgeIncline.png",
         "name_en": "R Concrete Wedge Incline",
@@ -13674,16 +12180,6 @@
         "icon_file_name": "rConcreteWedgeTipCNRFullTop.png",
         "name_en": "Concrete Wedge Full Corner Top",
         "name_ja": "コンクリート・くさび型（コーナー上部用・フル）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeTipCNRFullTop",
-        "icon_file_name": "pouredConcreteWedgeTipCNRFullTop.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -14416,16 +12912,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteWedgeTipCNRFullBottom",
-        "icon_file_name": "pouredConcreteWedgeTipCNRFullBottom.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteWedgeTipCNRFullBottom",
         "icon_file_name": "rConcreteWedgeTipCNRFullBottom.png",
         "name_en": "R Concrete Wedge Full Corner Bottom",
@@ -14622,16 +13108,6 @@
         "icon_file_name": "rConcreteWedgeCNRInsideBottom.png",
         "name_en": "Concrete Wedge Inside Corner Bottom",
         "name_ja": "コンクリート・くさび型（内側コーナーボトム用）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeCNRInsideBottom",
-        "icon_file_name": "pouredConcreteWedgeCNRInsideBottom.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -15188,26 +13664,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteArrowSlitHalf",
-        "icon_file_name": "pouredConcreteArrowSlitHalf.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeCNRInsideTop",
-        "icon_file_name": "pouredConcreteWedgeCNRInsideTop.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteWedgeCNRInsideTop",
         "icon_file_name": "rConcreteWedgeCNRInsideTop.png",
         "name_en": "R Concrete Wedge Inside Corner Top",
@@ -15340,16 +13796,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteStairsFilledRailingLeft",
-        "icon_file_name": "pouredConcreteStairsFilledRailingLeft.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteStairsFilledRailingLeft",
         "icon_file_name": "rConcreteStairsFilledRailingLeft.png",
         "name_en": "R Concrete Stairs, Railing Left",
@@ -15456,16 +13902,6 @@
         "icon_file_name": "concreteStairsFilledRailingRight.png",
         "name_en": "Concrete Stairs, Railing Right",
         "name_ja": "コンクリート階段（右手すり）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteStairsFilledRailingRight",
-        "icon_file_name": "pouredConcreteStairsFilledRailingRight.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -15654,16 +14090,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteCNRRampFiller",
-        "icon_file_name": "pouredConcreteCNRRampFiller.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteCNRRampFiller",
         "icon_file_name": "rConcreteCNRRampFiller.png",
         "name_en": "R Concrete Ramp Corner Filler",
@@ -15760,16 +14186,6 @@
         "icon_file_name": "concreteGableInvertedSteep.png",
         "name_en": "Concrete Gable Inverted Steep",
         "name_ja": "コンクリート（切り妻型・切れ込み急角）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteGableInvertedSteep",
-        "icon_file_name": "pouredConcreteGableInvertedSteep.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -16068,16 +14484,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteStairs25CornerCNR",
-        "icon_file_name": "pouredConcreteStairs25CornerCNR.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "concreteWedgeStairs",
         "icon_file_name": "concreteWedgeStairs.png",
         "name_en": "Concrete Wedge Stairs",
@@ -16253,16 +14659,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteQuarterCNR",
-        "icon_file_name": "pouredConcreteQuarterCNR.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteQuarterCNR",
         "icon_file_name": "rConcreteQuarterCNR.png",
         "name_en": "R Concrete 1/4 Corner",
@@ -16297,16 +14693,6 @@
         "icon_file_name": "stainlessSteelStairs25CornerCNR.png",
         "name_en": "St Steel Stairs Corner",
         "name_ja": "ステンレス鋼階段（コーナー用）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeStairs",
-        "icon_file_name": "pouredConcreteWedgeStairs.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -16767,16 +15153,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteWedgeCNRInsideSteepTop",
-        "icon_file_name": "pouredConcreteWedgeCNRInsideSteepTop.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteWedgeCNRInsideSteepTop",
         "icon_file_name": "rConcreteWedgeCNRInsideSteepTop.png",
         "name_en": "R Concrete Wedge Steep Inside Corner Top",
@@ -16981,16 +15357,6 @@
         "icon_file_name": "cobblestoneHalf.png",
         "name_en": "cobblestone 1/2 Block",
         "name_ja": "玉石ブロック（1/2）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeTipStairs",
-        "icon_file_name": "pouredConcreteWedgeTipStairs.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -17422,16 +15788,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteWedgeCNRSteepTop",
-        "icon_file_name": "pouredConcreteWedgeCNRSteepTop.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteWedgeCNRSteepTop",
         "icon_file_name": "rConcreteWedgeCNRSteepTop.png",
         "name_en": "R Concrete Wedge Steep Corner Top",
@@ -17572,16 +15928,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteQuarterTeeSCtr",
-        "icon_file_name": "pouredConcreteQuarterTeeSCtr.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteQuarterTeeSCtr",
         "icon_file_name": "rConcreteQuarterTeeSCtr.png",
         "name_en": "R Concrete 1/4 T SCtr",
@@ -17646,16 +15992,6 @@
         "icon_file_name": "rebarFrameCNRInside.png",
         "name_en": "Rebar Frame Inside Corner",
         "name_ja": "鉄筋フレーム（内側コーナー用）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteCNRInside",
-        "icon_file_name": "pouredConcreteCNRInside.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -17830,16 +16166,6 @@
         "icon_file_name": "concreteWedgeCNRSteepBase.png",
         "name_en": "Concrete Wedge Steep Corner Base",
         "name_ja": "コンクリート・くさび型（コーナーベース用・急角）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeCNRSteepBase",
-        "icon_file_name": "pouredConcreteWedgeCNRSteepBase.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -18078,16 +16404,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteQuarterSCtr",
-        "icon_file_name": "pouredConcreteQuarterSCtr.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteQuarterSCtr",
         "icon_file_name": "rConcreteQuarterSCtr.png",
         "name_en": "R Concrete 1/4 SCtr",
@@ -18183,16 +16499,6 @@
         "icon_file_name": "concretePillar100Cap.png",
         "name_en": "Concrete Pillar 100 Cap",
         "name_ja": "コンクリート支柱100キャップ",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcretePillar100Cap",
-        "icon_file_name": "pouredConcretePillar100Cap.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -18465,16 +16771,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteWedgeCNRInsideSteepBase",
-        "icon_file_name": "pouredConcreteWedgeCNRInsideSteepBase.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "brickCTRpole",
         "icon_file_name": "brickCTRpole.png",
         "name_en": "Brick Pole Centered",
@@ -18529,16 +16825,6 @@
         "icon_file_name": "stainlessSteelWedgeCNRInsideSteepBase.png",
         "name_en": "St Steel Wedge Steep Inside Corner Base",
         "name_ja": "ステンレス鋼・くさび型（内側コーナーベース用・急角）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteCTRpole",
-        "icon_file_name": "pouredConcreteCTRpole.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -18671,16 +16957,6 @@
         "icon_file_name": "concreteGableQuarter.png",
         "name_en": "Concrete Gable Quarter",
         "name_ja": "コンクリート・切り妻型（1/4）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteGableQuarter",
-        "icon_file_name": "pouredConcreteGableQuarter.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -18861,16 +17137,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteGableInvertedQuarter",
-        "icon_file_name": "pouredConcreteGableInvertedQuarter.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rConcreteGableInvertedQuarter",
         "icon_file_name": "rConcreteGableInvertedQuarter.png",
         "name_en": "R Concrete Gable Inverted Quarter",
@@ -19018,16 +17284,6 @@
         "icon_file_name": "concreteGableInvertedHalf.png",
         "name_en": "Concrete Gable Inverted Half",
         "name_ja": "コンクリート（切り妻型・切れ込み1/2）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteGableInvertedHalf",
-        "icon_file_name": "pouredConcreteGableInvertedHalf.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -19501,16 +17757,6 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteQuarterCNR3Way",
-        "icon_file_name": "pouredConcreteQuarterCNR3Way.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "woodPyramid1m",
         "icon_file_name": "woodPyramid1m.png",
         "name_en": "Wood Pyramid 1m",
@@ -19672,16 +17918,6 @@
         "icon_file_name": "concretePlateOffset.png",
         "name_en": "Concrete Plate Offset",
         "name_ja": "コンクリートプレート（オフセット）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcretePlateOffset",
-        "icon_file_name": "pouredConcretePlateOffset.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -20108,30 +18344,10 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteCNRRamp",
-        "icon_file_name": "pouredConcreteCNRRamp.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rebarFrameCNRFull",
         "icon_file_name": "rebarFrameCNRFull.png",
         "name_en": "Rebar Frame Corner Full",
         "name_ja": "鉄筋フレーム（コーナー用・フル）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteCNRFull",
-        "icon_file_name": "pouredConcreteCNRFull.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -20148,50 +18364,10 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteEighth",
-        "icon_file_name": "pouredConcreteEighth.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rebarFrameHalf",
         "icon_file_name": "rebarFrameHalf.png",
         "name_en": "Rebar Frame Half",
         "name_ja": "鉄筋フレーム（半分）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteHalf",
-        "icon_file_name": "pouredConcreteHalf.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcretePole",
-        "icon_file_name": "pouredConcretePole.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcretePyramid",
-        "icon_file_name": "pouredConcretePyramid.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -20208,40 +18384,10 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteQuarter",
-        "icon_file_name": "pouredConcreteQuarter.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteStairs25",
-        "icon_file_name": "pouredConcreteStairs25.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rebarFrameWedge",
         "icon_file_name": "rebarFrameWedge.png",
         "name_en": "Rebar Frame Wedge",
         "name_ja": "鉄筋フレーム・くさび型",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedge",
-        "icon_file_name": "pouredConcreteWedge.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -20258,30 +18404,10 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcreteBlock",
-        "icon_file_name": "pouredConcreteBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "rebarFrameWedgeTip",
         "icon_file_name": "rebarFrameWedgeTip.png",
         "name_en": "Rebar Frame Wedge Tip",
         "name_ja": "鉄筋フレーム・くさび型（先端）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteWedgeTip",
-        "icon_file_name": "pouredConcreteWedgeTip.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -20298,70 +18424,10 @@
         "unlocked_by": []
     },
     {
-        "key": "pouredRConcretePlate",
-        "icon_file_name": "pouredConcretePlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteSupport",
-        "icon_file_name": "pouredConcreteSupport.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "pouredConcreteBlock",
         "icon_file_name": "pouredConcreteBlock.png",
         "name_en": "Wet Concrete Block",
         "name_ja": "生コンブロック",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteRamp",
-        "icon_file_name": "pouredConcreteRamp.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcretePillar100",
-        "icon_file_name": "pouredConcretePillar50.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcreteCTRPlate",
-        "icon_file_name": "pouredConcreteCTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "pouredRConcretePillar50",
-        "icon_file_name": "pouredConcretePillar50.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -22919,446 +20985,6 @@
         "unlocked_by": []
     },
     {
-        "key": "poiFillerBlock",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterCTREighth",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterPyramid",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterQuarter",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterPlate",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterPlateLOD",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterHalf",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterRamp",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterCTRSheet",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterSheet",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "streetLightImposter",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterBlock",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockBlock",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockHalf",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockQuarter",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockSheet",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockCTRPlate",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterCNRFull",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockCTRQuarter",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockCTRPole",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterDontBlockCupboard",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "imposterArchWindow",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock01",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock02",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock03",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock04",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock05",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock06",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock07",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock08",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock09",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock10",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock11",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock12",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock13",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock14",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock15",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock16",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock17",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock18",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock19",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock20",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock21",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "newTextureBlock22",
-        "icon_file_name": "woodBlock.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "floatationBlock",
         "icon_file_name": "floatationBlock.png",
         "name_en": "Floatation Block",
@@ -24554,39 +22180,6 @@
         "unlocked_by": []
     },
     {
-        "key": "treePineBurntLrg",
-        "icon_file_name": "treePineBurntLrg.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "treePineBurntMed",
-        "icon_file_name": "treePineBurntMed.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "treePineBurntFullMed",
-        "icon_file_name": "treePineBurntFullMed.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "treeFirLrg01",
         "icon_file_name": "treeFirLrg01.png",
         "name_en": "Tree Fir Large 01",
@@ -24969,16 +22562,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedtreeGrassSeedRandomHelper",
-        "icon_file_name": "treeForestGrassDiagonal.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "mushroom01",
         "icon_file_name": "mushroom01.png",
         "name_en": "Mushrooms 01 (POI)",
@@ -25035,16 +22618,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedMushroom3HarvestPlayer",
-        "icon_file_name": "plantedMushroom3Harvest.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedYucca1",
         "icon_file_name": "plantedBlueberry1.png",
         "name_en": "Yucca (Seed)",
@@ -25085,16 +22658,6 @@
         "icon_file_name": "plantedYucca3Harvest.png",
         "name_en": "= Yucca = Random Helper",
         "name_ja": "= ユッカ = ランダムヘルパー",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedYucca3HarvestPlayer",
-        "icon_file_name": "plantedYucca1.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -25144,16 +22707,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedCotton3HarvestPlayer",
-        "icon_file_name": "plantedCotton1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedCoffee1",
         "icon_file_name": "plantedBlueberry1.png",
         "name_en": "Coffee (Seed)",
@@ -25197,16 +22750,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedCoffee3HarvestPlayer",
-        "icon_file_name": "plantedCoffee1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedGoldenrod1",
         "icon_file_name": "plantedGoldenrod1.png",
         "name_en": "Goldenrod (Seed)",
@@ -25244,16 +22787,6 @@
         "icon_file_name": "plantedGoldenrod3HarvestPlayer.png",
         "name_en": "= Goldenrod = Random Helper",
         "name_ja": "= アキノキリンソウ = ランダムヘルパー",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedGoldenrod3HarvestPlayer",
-        "icon_file_name": "plantedGoldenrod3HarvestPlayer.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -25306,16 +22839,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedAloe3HarvestPlayer",
-        "icon_file_name": "plantedAloe1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedBlueberry1",
         "icon_file_name": "plantedBlueberry1.png",
         "name_en": "Blueberry (Seed)",
@@ -25353,16 +22876,6 @@
         "icon_file_name": "plantedBlueberry3Harvest.png",
         "name_en": "= Blueberry = Random Helper",
         "name_ja": "= ブルーベリー = ランダムヘルパー",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedBlueberry3HarvestPlayer",
-        "icon_file_name": "plantedBlueberry1.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -25412,16 +22925,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedPotato3HarvestPlayer",
-        "icon_file_name": "plantedPotato1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedChrysanthemum1",
         "icon_file_name": "plantedBlueberry1.png",
         "name_en": "Chrysanthemum (Seed)",
@@ -25459,16 +22962,6 @@
         "icon_file_name": "plantedChrysanthemum3Harvest.png",
         "name_en": "= Chrysanthemum = Random Helper",
         "name_ja": "= 菊 = ランダムヘルパー",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedChrysanthemum3HarvestPlayer",
-        "icon_file_name": "plantedChrysanthemum1.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -25515,16 +23008,6 @@
         "icon_file_name": "plantedCorn3Harvest.png",
         "name_en": "= Corn = Random Helper",
         "name_ja": "= トウモロコシ = ランダムヘルパー",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedCorn3HarvestPlayer",
-        "icon_file_name": "plantedCorn1.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -25597,16 +23080,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedGraceCorn3HarvestPlayer",
-        "icon_file_name": "plantedCorn1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedHop1",
         "icon_file_name": "plantedBlueberry1.png",
         "name_en": "Hop (Seed)",
@@ -25650,16 +23123,6 @@
         "unlocked_by": []
     },
     {
-        "key": "plantedHop3HarvestPlayer",
-        "icon_file_name": "plantedHop1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "plantedSnowberry1",
         "icon_file_name": "plantedSnowberry3Harvest.png",
         "name_en": "Snowberry (Seed)",
@@ -25686,16 +23149,6 @@
         "icon_file_name": "plantedSnowberry3Harvest.png",
         "name_en": "Snowberry Plant 3 (POI)",
         "name_ja": "セッコウボクプラント3（POI）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedSnowberry3HarvestPlayer",
-        "icon_file_name": "plantedSnowberry1.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -25742,16 +23195,6 @@
         "icon_file_name": "plantedPumpkin3Harvest.png",
         "name_en": "= Pumpkin = Random Helper",
         "name_ja": "= カボチャ = ランダムヘルパー",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plantedPumpkin3HarvestPlayer",
-        "icon_file_name": "plantedPumpkin1.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -26354,56 +23797,6 @@
         "icon_file_name": "controlPanelBase08.png",
         "name_en": "Control Panel Base 08",
         "name_ja": "制御盤ベース08",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "conveyorBelt",
-        "icon_file_name": "conveyorBelt.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "conveyorBeltBridge",
-        "icon_file_name": "conveyorBeltBridge.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "conveyorBeltCap",
-        "icon_file_name": "conveyorBeltCap.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "conveyorBeltCorner",
-        "icon_file_name": "conveyorBeltCorner.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "conveyorBeltRamp",
-        "icon_file_name": "conveyorBeltRamp.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -28925,16 +26318,6 @@
         "unlocked_by": []
     },
     {
-        "key": "cntFreezerMaster",
-        "icon_file_name": "cntFreezerMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "cntFreezerGroceriesMiddleEmptyClosed",
         "icon_file_name": "cntFreezerMaster.png",
         "name_en": "Freezer Groceries Middle Empty Closed",
@@ -29521,16 +26904,6 @@
         "icon_file_name": "cntToilet03.png",
         "name_en": "Commercial Toilet",
         "name_ja": "業務用トイレ",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "urinalCommercialMounted",
-        "icon_file_name": "urinalCommercialMounted.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -30828,16 +28201,6 @@
         "unlocked_by": []
     },
     {
-        "key": "sectionalPlaidChair",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "sectionalLeatherCouchSofaArm",
         "icon_file_name": "sectionalLeatherCouchSofaArm.png",
         "name_en": "Leather Couch Arm",
@@ -30862,16 +28225,6 @@
         "icon_file_name": "sectionalLeatherCouchSofaMiddle.png",
         "name_en": "Leather Couch Middle",
         "name_ja": "レザーソファー（中央）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "sectionalLeatherChair",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -33332,26 +30685,6 @@
         "unlocked_by": []
     },
     {
-        "key": "cntClothesRackRectangleEmpty2",
-        "icon_file_name": "cntClothesRackRectangleEmpty2.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntClothesRackRoundEmpty2",
-        "icon_file_name": "cntClothesRackRoundEmpty2.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "cntClothesRackWallFlat",
         "icon_file_name": "cntClothesRackWallFlat.png",
         "name_en": "Clothes Rack Wall, Flat",
@@ -34832,18 +32165,6 @@
         "unlocked_by": []
     },
     {
-        "key": "oreBoulderMaster",
-        "icon_file_name": "oreBoulderMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "ore",
-            "surfaceOre",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "oreIronBoulder",
         "icon_file_name": "oreIronBoulder.png",
         "name_en": "Iron Ore Boulder",
@@ -35934,36 +33255,6 @@
         "unlocked_by": []
     },
     {
-        "key": "cntCar03SedanDamage0Master",
-        "icon_file_name": "cntCar03SedanDamage0Master.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntCar03SedanDamage1Master",
-        "icon_file_name": "cntCar03SedanDamage1Master.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntCar03SedanDamage2Master",
-        "icon_file_name": "cntCar03SedanDamage2Master.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "cntCar03SedanDamage0v01",
         "icon_file_name": "cntCar03SedanDamage0Master.png",
         "name_en": "Blue Sedan",
@@ -36494,16 +33785,6 @@
         "unlocked_by": []
     },
     {
-        "key": "cntQuestLootBox",
-        "icon_file_name": "cntChest01.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "sleeperSit",
         "icon_file_name": "sleeperSit.png",
         "name_en": "Sleeper Sitting",
@@ -36999,26 +34280,6 @@
         "icon_file_name": "spotlightNailedDownPOI.png",
         "name_en": "Spotlight (POI)",
         "name_ja": "スポットライト（POI）",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "signPillsLogo",
-        "icon_file_name": "signPillsLogoSmall.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "signPillsLogoSmall",
-        "icon_file_name": "signPillsLogoSmall.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -39317,16 +36578,6 @@
         "unlocked_by": []
     },
     {
-        "key": "trapSpikesWoodMaster",
-        "icon_file_name": "trapSpikesWoodMaster.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "trapSpikesWoodDmg2",
         "icon_file_name": "trapSpikesWoodDmg2.png",
         "name_en": "Wood Spikes Trap 2",
@@ -39351,16 +36602,6 @@
         "icon_file_name": "trapSpikesWoodMaster.png",
         "name_en": "Wood Spikes Trap",
         "name_ja": "木製スパイクトラップ",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "trapSpikesScrapIronMaster",
-        "icon_file_name": "trapSpikesScrapIronMaster.png",
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],
@@ -39714,26 +36955,6 @@
         "unlocked_by": [
             "perkDemolitionsExpert"
         ]
-    },
-    {
-        "key": "cntBarrelMetalMaster",
-        "icon_file_name": "cntBarrelAcidSingle00.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntBarrelPolymerMaster",
-        "icon_file_name": "cntBarrelAcidSingle00.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
     },
     {
         "key": "cntBarrelAcidSingle00",
@@ -40587,46 +37808,6 @@
         "unlocked_by": []
     },
     {
-        "key": "decals1",
-        "icon_file_name": "decals1.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decals2",
-        "icon_file_name": "decals2.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "decals3",
-        "icon_file_name": "decals3.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "artcube",
-        "icon_file_name": "artcube.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
         "key": "cntLootWeapons",
         "icon_file_name": "controlPanelTop07.png",
         "name_en": "Test Weapon Loot",
@@ -40661,550 +37842,6 @@
         "icon_file_name": "controlPanelBase05.png",
         "name_en": "Test Tool Loot",
         "name_ja": "テストツール略奪品",
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "adobeWhiteWindowArch3MCNR",
-        "icon_file_name": "brickWindowArch3MCNR.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "adobeWhiteWindowArch3MCTR",
-        "icon_file_name": "brickWindowArch3MCTR.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "adobeWhiteWindowArch3MTip",
-        "icon_file_name": "brickWindowArch3MTip.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rampCornerCutoutTest",
-        "icon_file_name": "rampCornerCutoutTest.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "curve_3x3x1TEST",
-        "icon_file_name": "curve_3x3x1TEST.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "turret_3x3TEST",
-        "icon_file_name": "turret_3x3TEST.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "turret_4x4x6TEST",
-        "icon_file_name": "turret_4x4x6TEST.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "elevatorTest",
-        "icon_file_name": "elevatorTest.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rampGutterTest",
-        "icon_file_name": "rampGutterTest.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rampGutterOutsideCornerTest",
-        "icon_file_name": "rampGutterOutsideCornerTest.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cube3mTest",
-        "icon_file_name": "cube3mTest.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cube3x3x1Test",
-        "icon_file_name": "cube3x3x1Test.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "arch_3m_full_TEST",
-        "icon_file_name": "arch_3m_full_TEST.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "woodCrownMiteredDoNotUse",
-        "icon_file_name": "woodCrownMiteredDoNotUse.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "shootingTarget",
-        "icon_file_name": "shootingRangeTarget.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "woodHalf3Quarter",
-        "icon_file_name": "woodHalfInsideCorner.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "concreteHalf3Quarter",
-        "icon_file_name": "concreteHalfInsideCorner.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntDisplayCaseMiddle",
-        "icon_file_name": "cntDisplayCaseEmptyMiddle.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntDisplayCaseMiddleBroken",
-        "icon_file_name": "cntDisplayCaseEmptyMiddleBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntDisplayCaseLeft",
-        "icon_file_name": "cntDisplayCaseEmptyLeft.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntDisplayCaseLeftBroken",
-        "icon_file_name": "cntDisplayCaseEmptyLeftBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntDisplayCaseRight",
-        "icon_file_name": "cntDisplayCaseEmptyRight.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntDisplayCaseRightBroken",
-        "icon_file_name": "cntDisplayCaseEmptyRightBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "counterSinkCommercial",
-        "icon_file_name": "wallMountSinkCommercial.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "wallHungSink",
-        "icon_file_name": "pedestalSink.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "sandbagCap01",
-        "icon_file_name": "sandbagStraight01.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "plainWoodWindowPlug",
-        "icon_file_name": "plainWoodWindowPlugCTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "WindowPlug01",
-        "icon_file_name": "windowPlug01CTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "WindowPlug02",
-        "icon_file_name": "windowPlug02CTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "WindowPlug03",
-        "icon_file_name": "windowPlug03CTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "wood",
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "WindowPlug04",
-        "icon_file_name": "windowPlug04CTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "scrapIronWindowPlug05CTRPlate",
-        "icon_file_name": "windowPlug04CTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "rScrapIronWindowPlug06CTRPlate",
-        "icon_file_name": "windowPlug04CTRPlate.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "brickBlockTrimQuarterRamp",
-        "icon_file_name": "brickRampTrimQuarter.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "brickBlockTrimCornerRound1m",
-        "icon_file_name": "brickBlockTrimCNRRound.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "brickBlockHalfTrimHalfSplit",
-        "icon_file_name": "brickHalfTrimSplit.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreEmptyBroken",
-        "icon_file_name": "cntFreezerGroceriesMiddleEmptyClosedBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreFullBroken",
-        "icon_file_name": "cntFreezerGroceriesMiddleFullClosedBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreOpenBroken",
-        "icon_file_name": "cntFreezerGroceriesMiddleEmptyOpenBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreCap1Broken",
-        "icon_file_name": "cntFreezerGroceriesRightEmptyClosedBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreCap2Broken",
-        "icon_file_name": "cntFreezerGroceriesLeftEmptyClosedBroken.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreEmpty",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreFull",
-        "icon_file_name": "cntFreezerGroceriesMiddleFullClosed.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreOpen",
-        "icon_file_name": "cntFreezerGroceriesMiddleEmptyOpen.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreCap1",
-        "icon_file_name": "cntFreezerGroceriesRightEmptyClosed.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "cntFreezerStoreCap2",
-        "icon_file_name": "cntFreezerGroceriesLeftEmptyClosed.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "bathroomSignUnisexWallmount",
-        "icon_file_name": "signBathroomSignUnisexWallMount.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "bathroomSignUnisexCeilinglmount",
-        "icon_file_name": "signBathroomSignUnisexCeilingMount.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "bathroomSignWomenWallmount",
-        "icon_file_name": "signBathroomSignWomenWallMount.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "bathroomSignWomenCeilinglmount",
-        "icon_file_name": "signBathroomSignWomenCeilingMount.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "bathroomSignMenWallmount",
-        "icon_file_name": "signBathroomSignMenWallMount.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "bathroomSignMenCeilinglmount",
-        "icon_file_name": "signBathroomSignMenCeilingMount.png",
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "chimneyPOI",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
-        "tags": [
-            "block"
-        ],
-        "unlocked_by": []
-    },
-    {
-        "key": "chimneyBlackPOI",
-        "icon_file_name": null,
-        "name_en": null,
-        "name_ja": null,
         "tags": [
             "block"
         ],

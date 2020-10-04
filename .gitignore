@@ -4,6 +4,7 @@ node_modules
 
 # Item Icons
 public/imgs/items/*.png
+public/thumbs.*
 
 # Firebase
 .firebase/*

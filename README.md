@@ -29,6 +29,17 @@ TODO: ↑ rewrite
 
 -------
 
+## Files required for build.
+
+- 7daystodays ItemIcons
+  - `public/imgs/items/*.png`
+- css sprite of thumnails of ItemIcons
+  - `public/thumbs.css`
+  - `public/thumbs.png`
+
+TODO: add support script.
+
+
 ## Firebasae
 
 ### init

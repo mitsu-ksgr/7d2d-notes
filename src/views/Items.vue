@@ -15,17 +15,19 @@
               <th class="text-left" @click="sortBy('key')">Key</th>
               <th class="text-left" @click="sortBy('name_en')">Name (en)</th>
               <th class="text-left" @click="sortBy('name_ja')">Name (ja)</th>
+              <th class="text-left">isBlock</th>
             </tr>
           </thead>
 
           <tbody>
             <tr v-for="item in sortedList" :key="item.key">
               <td>
-                <img :src="item.icon_file_path" width="50" height="50">
+                <div :class="item.thumbs_css_class"></div>
               </td>
               <td class="text-left">{{ item.key }}</td>
               <td class="text-left">{{ item.name_en }}</td>
               <td class="text-left">{{ item.name_ja }}</td>
+              <td class="text-left">{{ item.is_block }}</td>
             </tr>
           </tbody>
         </template>

@@ -43,10 +43,15 @@ function validateItem(item) {
     return false;
   }
 
+  // Invalid: missing icon file name.
+  if (isEmpty(item.icon_file_name)) {
+    return false;
+  }
+
   return true;
 }
 
-const jsonItemList = require('@/assets/json/items.json');
+const jsonItemList = require('@/assets/json/items.min.json');
 
 const complementItemList = () => {
   const ret = []; // deep copy.
@@ -60,6 +65,8 @@ const complementItemList = () => {
     ret.push({
       id: idx,
       icon_file_path: `/imgs/items/${item.icon_file_name}`,
+      thumbs_css_class: `sprite-thumbs-${item.icon_file_name.slice(0, -4)}`,
+      is_block: item.tags.includes('block'),
       ...item,
     });
     idx += 1;
