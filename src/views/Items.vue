@@ -5,14 +5,12 @@
     </v-container>
 
     <v-container class="text-center">
-      <v-form>
-        <v-container>
-          <v-text-field
-            v-model="search_by"
-            label="Search"
-            ></v-text-field>
-        </v-container>
-      </v-form>
+      <v-container>
+        <v-text-field
+          v-model="search_by"
+          label="Search"
+          ></v-text-field>
+      </v-container>
 
       <v-simple-table height="500px" fixed-header>
         <template v-slot:default>
