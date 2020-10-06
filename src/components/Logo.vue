@@ -1,10 +1,10 @@
 <template>
   <v-container class="logo">
     <div v-if="type == 'title'">
-      <h1>{{ appName }}</h1>
+      <h1 class="logo-title">{{ appName }}</h1>
     </div>
     <div v-else-if="type == 'text'">
-      <span>{{ appName }}</span>
+      <span class="logo-text">{{ appName }}</span>
     </div>
   </v-container>
 </template>
@@ -26,19 +26,3 @@ export default {
   }),
 };
 </script>
-
-<style lang="scss" scope>
-.logo {
-  h1 {
-    font-size: 4rem;
-    font-weight: 300;
-    line-height: 6rem;
-    font-family: 'EB Garamond', serif;
-  }
-
-  span {
-    font-size: 1.5em;
-    font-family: 'EB Garamond', serif;
-  }
-}
-</style>
