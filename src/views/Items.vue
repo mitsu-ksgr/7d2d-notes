@@ -1,9 +1,7 @@
 <template>
   <v-container class="items">
     <v-container class="text-center">
-      <h1 class="display-2 font-weight-bold mb-3">
-        Item List
-      </h1>
+      <h1 class="logo-title">Item List</h1>
     </v-container>
 
     <v-container class="text-center">
