@@ -5,6 +5,15 @@
     </v-container>
 
     <v-container class="text-center">
+      <v-form>
+        <v-container>
+          <v-text-field
+            v-model="search_by"
+            label="Search"
+            ></v-text-field>
+        </v-container>
+      </v-form>
+
       <v-simple-table height="500px" fixed-header>
         <template v-slot:default>
           <thead>
@@ -18,7 +27,7 @@
           </thead>
 
           <tbody>
-            <tr v-for="item in sortedList" :key="item.key">
+            <tr v-for="item in listedItems" :key="item.key">
               <td>
                 <div :class="item.thumbs_css_class"></div>
               </td>
@@ -44,15 +53,35 @@ export default {
 
   data: () => ({
     sort_by: '',
+    search_by: '',
   }),
 
   computed: {
-    sortedList() {
-      if (this.sort_by !== '') {
-        this.itemList.sortBy(this.sort_by);
+    listedItems() {
+      let items = [];
+
+      if (this.search_by !== '') {
+        items = this.itemList.items.filter((item) => {
+          if (item.key.toLowerCase().includes(this.search_by)) return true;
+          if (item.name_en.toLowerCase().includes(this.search_by)) return true;
+          if (item.name_ja.toLowerCase().includes(this.search_by)) return true;
+          return false;
+        });
+      } else {
+        items = this.itemList.items;
       }
-      return this.itemList.items;
+
+      if (this.sort_by !== '') {
+        items.sort((a, b) => {
+          if (a[this.sort_by] > b[this.sort_by]) return 1;
+          if (a[this.sort_by] < b[this.sort_by]) return -1;
+          return 0;
+        });
+      }
+
+      return items;
     },
+
     ...mapState({
       itemList: (state) => state.itemList,
     }),
