@@ -3,6 +3,9 @@
  *
  * Manage itemlist.
  */
+
+const jsonItemList = require('@/assets/json/items.min.json');
+
 /*
   [
     {
@@ -51,7 +54,17 @@ function validateItem(item) {
   return true;
 }
 
-const jsonItemList = require('@/assets/json/items.min.json');
+function isInternalItem(item) {
+  if (item.key.toLowerCase().includes('random')) return true;
+  if (item.key.toLowerCase().includes('helper')) return true;
+  return false;
+}
+
+function isPOI(item) {
+  if (item.key.endsWith('POI')) return true;
+  if (item.name_en.includes('(POI)')) return true;
+  return false;
+}
 
 const complementItemList = () => {
   const ret = []; // deep copy.
@@ -66,6 +79,8 @@ const complementItemList = () => {
       id: idx,
       icon_file_path: `/imgs/items/${item.icon_file_name}`,
       thumbs_css_class: `sprite-thumbs-${item.icon_file_name.slice(0, -4)}`,
+      is_internal_item: isInternalItem(item),
+      is_poi: isPOI(item),
       is_block: item.tags.includes('block'),
       ...item,
     });
@@ -89,6 +104,15 @@ export default class ItemList {
       if (a[attr] > b[attr]) return 1;
       if (a[attr] < b[attr]) return -1;
       return 0;
+    });
+  }
+
+  filterByContainAnyTags(tags) {
+    return this.items.filter((item) => {
+      for (let i = 0; i < item.tags.length; ++i) {
+        if (tags.includes(item.tags[i])) return true;
+      }
+      return false;
     });
   }
 }
