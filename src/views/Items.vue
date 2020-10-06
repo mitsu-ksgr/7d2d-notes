@@ -58,17 +58,15 @@ export default {
 
   computed: {
     listedItems() {
-      let items = [];
+      let { items } = this.itemList;
 
       if (this.search_by !== '') {
-        items = this.itemList.items.filter((item) => {
+        items = items.filter((item) => {
           if (item.key.toLowerCase().includes(this.search_by)) return true;
           if (item.name_en.toLowerCase().includes(this.search_by)) return true;
           if (item.name_ja.toLowerCase().includes(this.search_by)) return true;
           return false;
         });
-      } else {
-        items = this.itemList.items;
       }
 
       if (this.sort_by !== '') {
