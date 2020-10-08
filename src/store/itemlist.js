@@ -66,6 +66,18 @@ function isPOI(item) {
   return false;
 }
 
+function isAdminTool(item) {
+  if (item.tags.includes('admin')) return true;
+  if (item.name_en.startsWith('Dev:')) return true;
+  return false;
+}
+
+function isBlock(item) {
+  if (item.tags.includes('block')) return true;
+  if (item.key === 'solarCell') return true;
+  return false;
+}
+
 const complementItemList = () => {
   const ret = []; // deep copy.
   let idx = 0;
@@ -81,7 +93,8 @@ const complementItemList = () => {
       thumbs_css_class: `sprite-thumbs-${item.icon_file_name.slice(0, -4)}`,
       is_internal_item: isInternalItem(item),
       is_poi: isPOI(item),
-      is_block: item.tags.includes('block'),
+      is_block: isBlock(item),
+      is_admin_tool: isAdminTool(item),
       ...item,
     });
     idx += 1;
