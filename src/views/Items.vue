@@ -178,10 +178,6 @@
           v-model="search_keyname"
           label="Search Key, Name"
           ></v-text-field>
-        <v-text-field
-          v-model="search_tag"
-          label="DEBUG: Filter Tags"
-          ></v-text-field>
       </v-container>
 
       <v-simple-table height="500px" fixed-header>
