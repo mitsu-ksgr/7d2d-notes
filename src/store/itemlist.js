@@ -6,31 +6,6 @@
 
 const jsonItemList = require('@/assets/json/items.min.json');
 
-/*
-  [
-    {
-        "key": "meleeToolRepairT1ClawHammer",
-        "icon_file_name": "meleeToolRepairT1ClawHammer.png",
-        "name_en": "Claw Hammer",
-        "name_ja": "くぎ抜きハンマー",
-        "tags": [
-            "melee",
-            "light",
-            "tool",
-            "attStrength",
-            "perkMiner69r",
-            "perkMotherLode",
-            "canHaveCosmetic"
-        ],
-        "unlocked_by": [
-            "perkMiner69r",
-            "meleeToolIronSetSchematic"
-        ]
-      },
-      // ....
-    ]
-*/
-
 function isEmpty(str) {
   return (!str || str.length === 0);
 }

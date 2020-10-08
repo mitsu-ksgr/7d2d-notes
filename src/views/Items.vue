@@ -279,27 +279,6 @@ export default {
     listedItems() {
       // Filters
       let items = this.itemList.items.filter((item) => {
-        // Weapons
-        // if (!this.contain_weapons_melee) {
-        //   if (includeAll(item.tags, ['weapon', 'melee'])) return false;
-        // }
-        // if (!this.contain_weapons_gun) {
-        //   if (item.tags.includes('gun')) return false;
-        // }
-        // if (!this.contain_weapons_launcher) {
-        //   if (item.tags.includes('launcher')) return false;
-        // }
-        // if (!this.contain_weapons_bow) {
-        //   if (includeAny(item.tags, ['archery', 'crossbow'])) return false;
-        // }
-        // if (!this.contain_weapons_thrown) {
-        //   if (includeAll(item.tags, ['ammo', 'weapon'])) return false;
-        // }
-        // if (!this.contain_weapons_turret) {
-        //   if (includeAny(item.tags, ['turret', 'turretMelee', 'turretRanged'])) return false;
-        // }
-
-        // Filters
         if (!this.contain_weapons) {
           if (includeAny(item.tags, ['weapon', 'turret', 'turretMelee', 'turretRanged'])) return false;
         }
@@ -308,8 +287,10 @@ export default {
           if (item.tags.includes('ammo')) return false;
         }
         if (!this.contain_tools) {
-          if (item.tags.includes('tool') || item.key.startsWith('bucket')) return false;
-          if (item.key.startsWith('tool') && !item.key.endsWith('Schematic')) return false;
+          if (item.tags.includes('tool')
+            || item.key.startsWith('bucket')
+            || (item.key.startsWith('tool') && !item.key.endsWith('Schematic'))
+          ) return false;
         }
 
         if (!this.contain_apparels) {
@@ -333,11 +314,15 @@ export default {
           if (item.key.endsWith('Parts')) return false;
         }
         if (!this.contain_vehicle) {
-          if (item.tags.includes('vehicle') || item.key.startsWith('vehicle')) return false;
+          if (item.tags.includes('vehicle')
+            || item.key.startsWith('vehicle')
+          ) return false;
         }
 
         if (!this.contain_drugs) {
-          if (item.tags.includes('medical') || item.key.startsWith('drug')) return false;
+          if (item.tags.includes('medical')
+            || item.key.startsWith('drug')
+          ) return false;
         }
         if (!this.contain_foods) {
           if (item.tags.includes('food')) return false;
@@ -364,7 +349,9 @@ export default {
           ) return false;
         }
         if (!this.contain_dukes) {
-          if (item.tags.includes('dukes') || item.key === 'noteDuke01') return false;
+          if (item.tags.includes('dukes')
+            || item.key === 'noteDuke01'
+          ) return false;
         }
 
         // POI / Internals
