@@ -12,6 +12,14 @@
             <v-expansion-panel-content>
               <v-row>
                 <v-col cols="12" sm="3" md="3">
+                  <v-btn @click="changeAllFlags(true)">Turn ON All</v-btn>
+                </v-col>
+                <v-col cols="12" sm="3" md="3">
+                  <v-btn @click="changeAllFlags(false)">Turn OFF All</v-btn>
+                </v-col>
+              </v-row>
+              <v-row>
+                <v-col cols="12" sm="3" md="3">
                   <v-checkbox
                     v-model="contain_weapons"
                     label="Weapons"
@@ -360,7 +368,7 @@ export default {
           ) return false;
         }
         if (!this.contain_dukes) {
-          if (item.tag.includes('duke') || item.key === 'noteDukes') return false;
+          if (item.tags.includes('dukes') || item.key === 'noteDuke01') return false;
         }
 
         // POI / Internals
@@ -407,6 +415,26 @@ export default {
   methods: {
     sortBy(attr) {
       this.sort_by = attr;
+    },
+    changeAllFlags(flag) {
+      this.contain_weapons = flag;
+      this.contain_ammos = flag;
+      this.contain_tools = flag;
+      this.contain_apparels = flag;
+      this.contain_armors = flag;
+      this.contain_blocks = flag;
+      this.contain_resources = flag;
+      this.contain_junks = flag;
+      this.contain_parts = flag;
+      this.contain_vehicle = flag;
+      this.contain_drugs = flag;
+      this.contain_foods = flag;
+      this.contain_drinks = flag;
+      this.contain_seeds = flag;
+      this.contain_books = flag;
+      this.contain_schematics = flag;
+      this.contain_challenges = flag;
+      this.contain_dukes = flag;
     },
   },
 };
