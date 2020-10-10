@@ -188,6 +188,7 @@
               <th class="text-left" @click="sortBy('key')">Key</th>
               <th class="text-left" @click="sortBy('name_en')">Name (en)</th>
               <th class="text-left" @click="sortBy('name_ja')">Name (ja)</th>
+              <th class="text-center">Detail</th>
             </tr>
           </thead>
 
@@ -199,6 +200,11 @@
               <td class="text-left">{{ item.key }}</td>
               <td class="text-left">{{ item.name_en }}</td>
               <td class="text-left">{{ item.name_ja }}</td>
+              <td class="text-center">
+                <router-link :to="{ name: 'Item', params: { key: item.key }}">
+                  <v-icon>mdi-file-chart-outline</v-icon>
+                </router-link>
+              </td>
             </tr>
           </tbody>
         </template>
