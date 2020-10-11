@@ -175,7 +175,7 @@
         </v-expansion-panels>
 
         <v-text-field
-          v-model="search_keyname"
+          v-model="search_keyname_trigger"
           label="Search Key, Name"
           ></v-text-field>
       </v-container>
@@ -239,6 +239,7 @@ export default {
   data: () => ({
     sort_by: '',
     search_keyname: '',
+    search_keyname_trigger: '',
 
     // Filters
     contain_weapons: true,
@@ -271,6 +272,24 @@ export default {
     contain_internal: false,
     // TODO: Dev item.
   }),
+
+  watch: {
+    search_keyname_trigger: function(newValue, oldValue) {
+      this.debouncedSearchItems();
+    },
+  },
+
+  created: function() {
+    this.debouncedSearchItems = (() => {
+      let timer;
+      return () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+          this.search_keyname = this.search_keyname_trigger;
+        }, 750);
+      };
+    })();
+  },
 
   computed: {
     listedItems() {
