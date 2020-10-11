@@ -39,23 +39,22 @@
       </v-row>
     </v-container>
 
-    <!-- TODO: align center -->
     <v-container class="align-center">
-      <h3>Tags</h3>
-      <v-container>
+      <v-row justify="center">
+        <h3>Tags</h3>
+      </v-row>
+      <v-row justify="center">
         <ul>
           <li v-for="tag in item.tags" :key="tag">
             {{ tag }}
           </li>
         </ul>
-      </v-container>
+      </v-row>
     </v-container>
   </v-container>
 </template>
 
 <script>
-// import { mapState } from 'vuex';
-
 export default {
   name: 'Item',
   props: {},
@@ -72,12 +71,6 @@ export default {
       item, itemKey,
     };
   },
-
-  // computed: {
-  //   ...mapState({
-  //     itemList: (state) => state.itemList,
-  //   }),
-  // },
 
   methods: {
   },
