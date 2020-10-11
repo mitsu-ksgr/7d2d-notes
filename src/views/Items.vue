@@ -239,15 +239,6 @@ export default {
   data: () => ({
     sort_by: '',
     search_keyname: '',
-    search_tag: '',
-
-    // Weapons
-    // contain_weapons_melee: true, // "weapon" && "melee"
-    // contain_weapons_gun: true, // "gun"
-    // contain_weapons_launcher: true, // "launcher"
-    // contain_weapons_bow: true, // "archery" || "crossbow"
-    // contain_weapons_thrown: true, // "ammo" && "weapon"
-    // contain_weapons_turret: true, // "turret" || "turretMelee" || "turretRanged"
 
     // Filters
     contain_weapons: true,
@@ -377,12 +368,6 @@ export default {
           if (item.name_ja.toLowerCase().includes(skey)) return true;
           return false;
         });
-      }
-
-      // debug
-      if (this.search_tag !== '') {
-        const tags = this.search_tag.split(',');
-        items = items.filter((item) => includeAll(item.tags, tags));
       }
 
       if (this.sort_by !== '') {
