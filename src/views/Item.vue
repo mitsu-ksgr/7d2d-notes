@@ -150,7 +150,6 @@ export default {
 
   mounted() {
     const { itemList } = this.$store.state;
-    const recipePath = `/json/recipes/${this.itemKey}.json`;
 
     const req = new XMLHttpRequest();
     req.open('GET', `/json/recipes/${this.itemKey}.json`, true);
