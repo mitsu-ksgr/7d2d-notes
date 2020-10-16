@@ -150,17 +150,46 @@ def load_recipes(data_dir_path: str):
     return recipes
 
 
+def make_ingredients_data(recipes):
+    ings = {}
+    for rlist in recipes.values():
+        for recipe in rlist:
+            for ing in recipe.ingredients:
+                ings.setdefault(ing.name, [])
+                ings[ing.name].append(recipe.name)
+    return ings
+
+
 def entrypoint(data_dir_path, out_dir_path, expand_flag = False):
     recipes = load_recipes(data_dir_path)
+    ings = make_ingredients_data(recipes)
 
     # make output dir.
+    # - recipes ... out/recipes/*.json
+    # - ingredients ... out/ingredients/*.json
+    out_dir_recipe = f"{out_dir_path}/recipes"
+    out_dir_ings = f"{out_dir_path}/ingredients"
     if not os.path.isdir(out_dir_path):
         os.mkdir(out_dir_path)
+    if not os.path.isdir(out_dir_recipe):
+        os.mkdir(out_dir_recipe)
+    if not os.path.isdir(out_dir_ings):
+        os.mkdir(out_dir_ings)
 
-    # generate json.
+    # generate recipe json.
     indent = 4 if expand_flag else None
     for key, rlist in recipes.items():
-        with open(f"{out_dir_path}/{key}.json", mode="w") as f:
+        with open(f"{out_dir_recipe}/{key}.json", mode="w") as f:
+            print(
+                json.dumps(rlist,
+                    cls=RecipeJsonEncoder,
+                    indent=indent,
+                    ensure_ascii=False),
+                file=f)
+
+    # generate ingredients json.
+    for key, rlist in ings.items():
+        with open(f"{out_dir_ings}/{key}.json", mode="w") as f:
             print(
                 json.dumps(rlist,
                     cls=RecipeJsonEncoder,
@@ -172,7 +201,7 @@ def entrypoint(data_dir_path, out_dir_path, expand_flag = False):
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description="Generate 7daystodie recipe json.")
+    parser = argparse.ArgumentParser(description="Generate 7daystodie recipe / ingredient json.")
     parser.add_argument("data_dir_path", type=str,
         help="Path to 7daystodie/Data directory.")
     parser.add_argument("-o", "--output", type=str, default="out",
