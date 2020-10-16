@@ -5,7 +5,7 @@ node_modules
 # Public resources
 public/imgs/items/*.png
 public/thumbs.*
-public/json/recipes/*.json
+public/json/*/*.json
 
 # Firebase
 .firebase/*

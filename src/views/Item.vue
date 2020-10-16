@@ -58,7 +58,6 @@
         <h3>Recipes</h3>
       </v-row>
       <v-row justify="center">
-        <p>{{ msg }}</p>
         <v-treeview
           v-model="tree"
           :items="recipes"
@@ -75,6 +74,25 @@
             <div>x{{ item.count }}</div>
           </template>
         </v-treeview>
+      </v-row>
+    </v-container>
+
+    <!-- Ingredients of -->
+    <v-container v-if="inglist.length > 0">
+      <v-row justify="center">
+        <h3>Ingredients of</h3>
+      </v-row>
+      <v-row justify="center">
+        <v-list>
+         <v-list-item v-for="item in inglist" :key="item.key">
+           <v-list-item-icon>
+             <div :class="item.icon_class"></div>
+           </v-list-item-icon>
+           <v-list-item-content>
+             {{ item.key }}
+           </v-list-item-content>
+         </v-list-item>
+        </v-list>
       </v-row>
     </v-container>
   </v-container>
@@ -144,7 +162,7 @@ export default {
     const item = itemList.findItemByKey(itemKey);
 
     return {
-      item, itemKey, recipes: [], tree: [],
+      item, itemKey, recipes: [], tree: [], inglist: [],
     };
   },
 
@@ -159,6 +177,37 @@ export default {
       this.recipes = buildRecipe(jsonRecipes, itemList);
     };
     req.send();
+
+    const reqIng = new XMLHttpRequest();
+    reqIng.open('GET', `/json/ingredients/${this.itemKey}.json`, true);
+    reqIng.onreadystatechange = () => {
+      console.log('===== reqIng =====');
+      console.log(`reqIng URL: /json/ingredients/${this.itemKey}.json`);
+      console.log(`reqIng.readyState = ${reqIng.readyState}`);
+      console.log(`reqIng.status     = ${reqIng.status}`);
+
+      if (reqIng.readyState !== 4 || reqIng.status !== 200) {
+        return;
+      }
+
+      this.inglist = [];
+      try {
+        const jsonInglist = JSON.parse(reqIng.responseText);
+        jsonInglist.forEach((elem) => {
+          const item = itemList.findItemByKey(elem);
+
+          this.inglist.push({
+            key: elem,
+            icon_class: item.thumbs_css_class,
+            name_ja: item.name_ja,
+            name_en: item.name_en,
+          });
+        });
+      } catch (e) {
+        // item that is not ingredient for something, response will be html page.
+      }
+    };
+    reqIng.send();
   },
 
   methods: {
