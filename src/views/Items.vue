@@ -217,12 +217,12 @@
 import { mapState } from 'vuex';
 
 // TODO: Move libs
-function includeAll(list, items) {
-  for (let i = 0; i < items.length; ++i) {
-    if (!list.includes(items[i])) return false;
-  }
-  return true;
-}
+// function includeAll(list, items) {
+//   for (let i = 0; i < items.length; ++i) {
+//     if (!list.includes(items[i])) return false;
+//   }
+//   return true;
+// }
 
 function includeAny(list, items) {
   for (let i = 0; i < items.length; ++i) {
@@ -274,12 +274,12 @@ export default {
   }),
 
   watch: {
-    search_keyname_trigger: function(newValue, oldValue) {
+    search_keyname_trigger() {
       this.debouncedSearchItems();
     },
   },
 
-  created: function() {
+  created() {
     this.debouncedSearchItems = (() => {
       let timer;
       return () => {
