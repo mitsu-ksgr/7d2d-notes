@@ -7,7 +7,11 @@
 # - https://jp.vuejs.org/v2/cookbook/dockerize-vuejs-app.html
 #
 #------------------------------------------------------------------------------
-FROM node:14-alpine
+FROM node:17-alpine
+
+# Workaround for webpack problem.
+# https://github.com/webpack/webpack/issues/14532#issuecomment-947012063
+ENV NODE_OPTIONS=--openssl-legacy-provider
 
 RUN apk update && apk upgrade
 RUN yarn global add @vue/cli firebase
